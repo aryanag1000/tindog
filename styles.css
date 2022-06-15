@@ -1,0 +1,164 @@
+
+body{
+  text-align: center;
+  font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+p{
+  color: #8f8f8f;
+}
+/* Headings */
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.big-heading{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+/* Container */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+ /* Sections */
+.colored-section{
+  background-color: #FF4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+ /* Navigation Bar */
+
+.nav-item{
+  margin: 20px;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Ubuntu";
+}
+.nav-link{
+  font-family: "Montserrat";
+}
+.navbar{
+  padding-left: 0;
+}
+/* Download Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+/* Title image */
+.rotate{
+  right: 30%;
+  position: absolute;
+  margin-left: 1rem;
+  transform: rotate(25deg);
+  width: 60%;
+}
+.h1-meetdogs{
+  padding: 0;
+}
+.title-row{
+  margin-top: 4rem;
+}
+ /* Features Section */
+.feature-icons{
+  margin-bottom: 1.3rem;
+  color: #ef8172;
+}
+.feature-icons:hover{
+  color: #ff4c68;
+}
+.feature-headings{
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.feature-description{
+  padding: 0 0.15625rem;
+  color: #8f8f8f;
+}
+#features{
+  position: relative;
+  background-color: white;
+}
+.feature-section{
+  padding: 3%;
+  margin: 1.5rem 0;
+}
+/* Testimonial Section */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width:13%;
+  margin: 1.3rem;
+}
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+/* Pricing section */
+#pricing{
+  text-align:center;
+  padding: 6.2rem;
+}
+.pricing-coloumn{
+  padding:3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media (max-width: 992px){
+  #title{
+    text-align: center;
+  }
+.rotate{
+  transform: rotate(0deg);
+  position: static;
+  }
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+.fab{
+  margin: 0.7rem;
+}
+.fas{
+  margin: 0.7rem;
+}
+.copyright-footer{
+  font-size: 0.85rem;
+  font-family: "Montserrat";
+  color: #8f8f8f;
+  margin-top: 1rem;
+}
